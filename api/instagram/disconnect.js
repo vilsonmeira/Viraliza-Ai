@@ -1,0 +1,1 @@
+module.exports=async function(req,res){res.setHeader("Cache-Control","no-store");res.setHeader("Set-Cookie","viraliza_ig_session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0");res.statusCode=200;res.setHeader("Content-Type","application/json");res.end(JSON.stringify({connected:false}))};
